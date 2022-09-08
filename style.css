@@ -48,18 +48,19 @@ header {
   display: flex;
   justify-content: space-between;
 }
-/* Logo de empresa */
-.img-logo-cent {
-  margin: 10px auto;
-  display: block;
-  border-radius: 5px;
+
+.img-fluid:hover{
+  transform: scale(1.01);
+  transition: 0.5s;
+  opacity: 0.6;
+
 }
 
 /* Estilo de logo redes sociales */
 .img-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px;
   align-items: center;
 }
@@ -68,7 +69,7 @@ header {
   display: flex;
   width: 1.5625rem;
   height: 1.5625rem;
-  justify-content: space-around;
+   
 }
 
 /* Texto inicial de Index */
@@ -92,9 +93,10 @@ ul {
   flex-direction: row;
   justify-content: space-around;
   background-color: #998da0;
-  padding: 15px;
+  padding: 10px;
   border-radius: 3px;
   border: 1px solid #fff;
+  
 }
 
 ul li {
@@ -122,13 +124,18 @@ li a:hover {
 }
 
 /* Contenido acerca de nosotros */
+
+.page-title{
+  color: #000;
+}
 .nosotros {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #7f9183;
+  background-color: #b9c0da;
   padding: 10px;
   text-align: center;
   font-size: 25px;
   margin-bottom: 5px;
+  color:#63585e;
 }
 
 .parrafo-nosotros {
@@ -147,12 +154,12 @@ li a:hover {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 40px;
   padding: 10px;
-  color: #772f1a;
+  color: #b9c0da;
   text-transform: uppercase;
 }
 
 #elaboracion-parrafo {
-  color: #772f1a;
+  color: #b9c0da;
   padding: 30px;
   font-size: 20px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -366,4 +373,16 @@ h3 {
     width: 100%;
     height: auto;
    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+.img-ocult {
+    display: none;
+   }
+
+ul li a{
+  font-size: 1rem;
+}    
+  
 }
