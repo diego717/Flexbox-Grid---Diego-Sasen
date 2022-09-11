@@ -1,0 +1,16 @@
+@import './base/colors.scss';
+@import './base/tipography.scss';
+@import './layout/header.scss';
+@import './layout/footer.scss';
+@import './layout/main.scss';
+@import './base/default.scss';
+@import './views/breakpoints.scss';
+
+
+
+body {
+  background-color: $primary-color;
+}
+
+
+

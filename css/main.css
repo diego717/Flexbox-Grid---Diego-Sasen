@@ -1,0 +1,317 @@
+/* Colores Formulario */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Radio+Canada:ital,wght@0,300;1,700&display=swap");
+header {
+  display: flex;
+  justify-content: space-between; }
+
+/* Titulo de pagina y barra de navegacion de todas las paginas */
+.titulo-principal {
+  font-family: "Dancing Script";
+  font-size: 3.125rem;
+  padding: 3rem; }
+  .titulo-principal .titulo-style {
+    text-decoration: none;
+    color: #fff;
+    animation: titulo-style 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+@keyframes titulo-style {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    opacity: 1; } }
+
+/* Barra de navegacion */
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #998da0;
+  padding: 10px 0px 10px 10px;
+  border-radius: 3px;
+  border: 1px solid #fff; }
+  ul li {
+    display: flex; }
+    ul li a {
+      display: flex;
+      color: #fff;
+      font-family: "Radio Canada";
+      text-decoration: none;
+      font-size: 1.25rem;
+      transition: all 0.5s ease-out; }
+      ul li a:hover {
+        background-color: #998da0;
+        transform: scale(1.3);
+        transition: 0.5s;
+        color: #fff; }
+
+.nav-position {
+  text-align: center; }
+
+.footer {
+  display: flex;
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+  font-family: "Radio Canada";
+  flex-direction: column;
+  padding: 0.5rem;
+  border-top: 1px solid #fff; }
+
+/* Estilo de logo redes sociales */
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px 10px 10px;
+  align-items: center; }
+
+.img-logo-rrss {
+  display: flex;
+  width: 1.5625rem;
+  height: 1.5625rem; }
+
+/* Imagenes de Index */
+.grid-images {
+  padding-bottom: 0.9375rem; }
+
+.img-fluid:hover {
+  transform: scale(1.01);
+  transition: 0.5s;
+  opacity: 0.6; }
+
+/* Texto inicial de Index */
+.introduct {
+  font-family: "Dancing Script";
+  font-size: 24px; }
+
+.content-introduct {
+  display: flex;
+  font-size: 1.5em;
+  color: #63585e;
+  width: auto;
+  padding: 5px;
+  background-color: #b9c0da; }
+
+/* Contenido acerca de nosotros */
+.page-title {
+  color: #000; }
+
+.nosotros {
+  font-family: "Radio Canada";
+  background-color: #b9c0da;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #63585e; }
+
+.parrafo-nosotros {
+  padding: 3px; }
+
+/* Videos de elaboracion de productos */
+.iframe-container-video {
+  text-align: center;
+  padding: 0px; }
+
+iframe {
+  aspect-ratio: 16 / 9;
+  height: 70%;
+  width: 90%; }
+
+#elaboracion-titulo {
+  font-family: "Radio Canada";
+  font-size: 40px;
+  padding-bottom: 10px;
+  color: #b9c0da;
+  text-transform: uppercase;
+  text-align: center; }
+
+#elaboracion-parrafo {
+  color: #b9c0da;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-family: "Radio Canada";
+  text-transform: uppercase;
+  text-align: center; }
+
+/* Formulario de contacto */
+.contact_form {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  background-color: #fbfbfb; }
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px; }
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px; }
+
+label {
+  display: block;
+  float: center; }
+
+button {
+  height: 45px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #ab4493;
+  border-color: #ab4493;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer; }
+  button p {
+    color: #fff; }
+
+span {
+  color: #ab4493; }
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e; }
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #ab4493; }
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e; }
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848; }
+  .formulario input:focus textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848; }
+
+.img-formulario-container {
+  display: flex;
+  justify-content: center; }
+
+.img-formulario {
+  width: 75rem; }
+
+/* Estilos de testimonios de clientes */
+.clientes {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly; }
+
+.cliente-container {
+  position: relative;
+  display: flex;
+  margin: 1rem;
+  flex-flow: wrap;
+  flex-direction: column;
+  background-color: #e9e9e9;
+  padding: 0.5rem;
+  width: 320px;
+  height: 500px;
+  flex: 0 0 320px;
+  border: 4px solid #c4e7d4; }
+
+.cliente-container__img {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: 5px; }
+  .cliente-container__img img {
+    width: 100%;
+    border-radius: 5px; }
+
+.cliente-testimonio__container {
+  margin: 1.5rem;
+  font-family: "Radio Canada"; }
+  .cliente-testimonio__container h4 {
+    font-size: 1.4rem; }
+    .cliente-testimonio__container h4 p {
+      margin-top: 1rem;
+      line-height: 1.5rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+a:link :visited :hover {
+  text-decoration: none; }
+
+@media (max-width: 768px) {
+  .grid {
+    display: grid;
+    grid-auto-rows: min-content max-content auto;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); }
+  header {
+    display: flex;
+    justify-content: space-evenly; }
+  ul {
+    display: flex;
+    flex-flow: column wrap; }
+    ul li {
+      justify-content: center; }
+  .content-introduct {
+    display: flex;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #7f9183; }
+  .titulo-principal {
+    font-size: 2rem; }
+  .img-logo-rrss {
+    display: flex;
+    width: 1.25rem;
+    height: 1.25rem; }
+  .img-slider {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000; }
+  .img-ocult {
+    display: none; }
+  .img-formulario {
+    width: 100%;
+    height: auto; } }
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .grid {
+    display: grid;
+    grid-auto-rows: min-content max-content auto;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); }
+  .img-ocult {
+    display: none; }
+  ul li a {
+    font-size: 1rem; } }
+
+body {
+  background-color: #63585e; }

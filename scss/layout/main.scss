@@ -1,0 +1,219 @@
+/* Imagenes de Index */
+.grid-images {
+  padding-bottom: 0.9375rem;
+}
+
+.img-fluid:hover {
+  transform: scale(1.01);
+  transition: 0.5s;
+  opacity: 0.6;
+}
+
+/* Texto inicial de Index */
+.introduct {
+  font-family: $primary-font;
+  font-size: 24px;
+}
+
+.content-introduct {
+  display: flex;
+  font-size: 1.5em;
+  color: $primary-color;
+  width: auto;
+  padding: 5px;
+  background-color: $secondary-color;
+}
+
+/* Contenido acerca de nosotros */
+
+.page-title {
+  color: #000;
+}
+.nosotros {
+  font-family: $secondary-font;
+  background-color: $secondary-color;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: $primary-color;
+}
+
+.parrafo-nosotros {
+  padding: 3px;
+}
+
+/* Videos de elaboracion de productos */
+.iframe-container-video {
+    text-align: center;
+    padding: 0px;
+}
+
+iframe{
+   aspect-ratio: 16 / 9;
+   height: 70%;
+   width: 90%;
+
+   
+}
+
+#elaboracion-titulo {
+  font-family: $secondary-font;
+  font-size: 40px;
+  padding-bottom: 10px;
+  color: $secondary-color;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#elaboracion-parrafo {
+  color: $secondary-color;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-family: $secondary-font;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Formulario de contacto */
+
+.contact_form {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  background-color: $back-color-form;
+}
+
+input {
+  background-color: $back-color-form;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $border-color-form;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: $back-color-form;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $border-color-form;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: $border-color-form;
+  border-color: $border-color-form;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+
+  p {
+    color: #fff;
+  }
+}
+
+span {
+  color: $border-color-form;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: $border-color-form;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid $border-active-form;
+
+    textarea:focus {
+        outline: 0;
+        border: 1px solid $border-active-form;
+  }
+}
+.img-formulario-container {
+  display: flex;
+  justify-content: center;
+}
+.img-formulario {
+  width: 75rem;
+}
+
+/* Estilos de testimonios de clientes */
+.clientes {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
+.cliente-container {
+  position: relative;
+  display: flex;
+  margin: 1rem;
+  flex-flow: wrap;
+  flex-direction: column;
+  background-color: #e9e9e9;
+  padding: 0.5rem;
+  width: 320px;
+  height: 500px;
+  flex: 0 0 320px;
+  border: 4px solid $fifth-color;
+}
+
+.cliente-container__img {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: 5px;
+    img {
+        width: 100%;
+        border-radius: 5px;
+  }
+}
+.cliente-testimonio__container {
+  margin: 1.5rem;
+  font-family: $secondary-font;
+  h4 {
+    font-size: 1.4rem;
+    p {
+      margin-top: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+}
