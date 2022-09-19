@@ -27,9 +27,9 @@ header {
 ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #998da0;
-  padding: 10px 0px 10px 10px;
+  padding: 0.625rem 0.5rem;
   border-radius: 3px;
   border: 1px solid #fff; }
   ul li {
@@ -47,9 +47,6 @@ ul {
         transition: 0.5s;
         color: #fff; }
 
-.nav-position {
-  text-align: center; }
-
 .footer {
   display: flex;
   font-size: 1.25rem;
@@ -57,21 +54,24 @@ ul {
   text-align: center;
   font-family: "Radio Canada";
   flex-direction: column;
-  padding: 0.5rem;
+  padding: 0.8rem;
   border-top: 1px solid #fff; }
 
 /* Estilo de logo redes sociales */
 .img-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 0px 10px 10px;
+  justify-content: space-around;
+  padding: 0px;
   align-items: center; }
 
 .img-logo-rrss {
   display: flex;
-  width: 1.5625rem;
-  height: 1.5625rem; }
+  width: 1.8rem;
+  height: 1.8rem; }
+
+body {
+  background-color: #63585e; }
 
 /* Imagenes de Index */
 .grid-images {
@@ -84,12 +84,11 @@ ul {
 
 /* Texto inicial de Index */
 .introduct {
-  font-family: "Dancing Script";
-  font-size: 24px; }
+  font-family: "Dancing Script"; }
 
 .content-introduct {
   display: flex;
-  font-size: 1.5em;
+  font-size: 24px;
   color: #63585e;
   width: auto;
   padding: 5px;
@@ -104,7 +103,7 @@ ul {
   background-color: #b9c0da;
   padding: 10px;
   text-align: center;
-  font-size: 25px;
+  font-size: 24px;
   margin-bottom: 5px;
   color: #63585e; }
 
@@ -237,7 +236,8 @@ h3 {
   width: 320px;
   height: 500px;
   flex: 0 0 320px;
-  border: 4px solid #c4e7d4; }
+  border: 4px solid #b9c0da;
+  border-radius: 0.5rem; }
 
 .cliente-container__img {
   display: flex;
@@ -268,10 +268,6 @@ a:link :visited :hover {
   text-decoration: none; }
 
 @media (max-width: 768px) {
-  .grid {
-    display: grid;
-    grid-auto-rows: min-content max-content auto;
-    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); }
   header {
     display: flex;
     justify-content: space-evenly; }
@@ -284,7 +280,7 @@ a:link :visited :hover {
     display: flex;
     font-size: 1rem;
     color: #fff;
-    background-color: #7f9183; }
+    background-color: #b9c0da; }
   .titulo-principal {
     font-size: 2rem; }
   .img-logo-rrss {
@@ -304,14 +300,7 @@ a:link :visited :hover {
     height: auto; } }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
-  .grid {
-    display: grid;
-    grid-auto-rows: min-content max-content auto;
-    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); }
   .img-ocult {
     display: none; }
   ul li a {
     font-size: 1rem; } }
-
-body {
-  background-color: #63585e; }

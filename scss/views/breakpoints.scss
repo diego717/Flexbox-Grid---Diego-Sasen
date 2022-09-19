@@ -1,71 +1,58 @@
 @media (max-width: 768px) {
-    .grid {
-      display: grid;
-      grid-auto-rows: min-content max-content auto;
-      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-    }
-    header {
-      display: flex;
-      justify-content: space-evenly;
-    }
   
-ul {
+  header {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  ul {
     display: flex;
     flex-flow: column wrap;
- 
-        li {
-         justify-content: center;
-        }
-    }
-  
-    .content-introduct {
-      display: flex;
-      font-size: 1rem;
-      color: #fff;
-      background-color: $breakpoint-color;
-    }
-    .titulo-principal {
-      font-size: 2rem;
-    }
-  
-    .img-logo-rrss {
-      display: flex;
-      width: 1.25rem;
-      height: 1.25rem;
-    }
-  
-    .img-slider {
-      display: flex;
-      width: 100%;
-      height: 100%;
-      border-radius: 5px;
-      box-shadow: 0 0 10px #000;
-    }
-    .img-ocult {
-      display: none;
-    }
-    .img-formulario {
-      width: 100%;
-      height: auto;
+
+    li {
+      justify-content: center;
     }
   }
+
+  .content-introduct {
+    display: flex;
+    font-size: 1rem;
+    color: #fff;
+    background-color: $secondary-color;
+  }
+  .titulo-principal {
+    font-size: 2rem;
+  }
+
+  .img-logo-rrss {
+    display: flex;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  .img-slider {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+  }
+  .img-ocult {
+    display: none;
+  }
+  .img-formulario {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
   
-  @media (min-width: 768px) and (max-width: 1199.98px) {
-    .grid {
-        display: grid;
-        grid-auto-rows: min-content max-content auto;
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-    }
-    .img-ocult {
-      display: none;
-    }
-  
-    ul li a {
-      font-size: 1rem;
-    }
-    
-}     
-        
-    
-  
-  
+  .img-ocult {
+    display: none;
+  }
+
+  ul li a {
+    font-size: 1rem;
+  }
+}

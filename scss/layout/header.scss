@@ -33,9 +33,9 @@ header {
 ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: $tertiary-color;
-  padding: 10px 0px 10px 10px;
+  padding: 0.625rem 0.5rem;
   border-radius: 3px;
   border: 1px solid #fff;
   li {
@@ -49,7 +49,7 @@ ul {
       font-size: 1.25rem;
       transition: all 0.5s ease-out;
       &:hover {
-        background-color: #998da0;
+        background-color: $tertiary-color;
         transform: scale(1.3);
         transition: 0.5s;
         color: #fff;
@@ -58,6 +58,3 @@ ul {
   }
 }
 
-.nav-position {
-  text-align: center;
-}
