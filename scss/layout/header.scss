@@ -8,8 +8,10 @@ header {
   font-family: $primary-font;
   font-size: 3.125rem;
   padding: 3rem;
+  
 
   .titulo-style {
+    
     text-decoration: none;
     color: #fff;
     animation: titulo-style 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;

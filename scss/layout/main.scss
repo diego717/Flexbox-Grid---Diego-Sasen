@@ -33,21 +33,25 @@ body {
   color: #000;
 }
 .nosotros {
+  display: flex;
+  flex-wrap: wrap;
   font-family: $secondary-font;
   background-color: $secondary-color;
   padding: 10px;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 5px;
   color: $primary-color;
-  overflow:hidden;
-}
+ }
+ .img-left {
+  width: 50%;
+ }
+ .img-right {
+  width: 50%;
+ }
 
 .parrafo-nosotros {
   padding: 3px;
-}
-.img-nosotros{
-  width: stretch;
 }
 
 
@@ -66,7 +70,7 @@ iframe {
 #elaboracion-titulo {
   font-family: $secondary-font;
   font-size: 40px;
-  padding-bottom: 10px;
+  padding: 35px;
   color: $secondary-color;
   text-transform: uppercase;
   text-align: center;
@@ -74,7 +78,7 @@ iframe {
 
 #elaboracion-parrafo {
   color: $secondary-color;
-  padding-bottom: 20px;
+  padding: 30px;
   font-size: 20px;
   font-family: $secondary-font;
   text-transform: uppercase;

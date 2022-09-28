@@ -54,8 +54,7 @@ ul {
   text-align: center;
   font-family: "Radio Canada";
   flex-direction: column;
-  padding: 0.8rem;
-  border-top: 1px solid #fff; }
+  padding: 2rem; }
 
 /* Estilo de logo redes sociales */
 .img-container {
@@ -99,20 +98,24 @@ body {
   color: #000; }
 
 .nosotros {
+  display: flex;
+  flex-wrap: wrap;
   font-family: "Radio Canada";
   background-color: #b9c0da;
   padding: 10px;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 5px;
-  color: #63585e;
-  overflow: hidden; }
+  color: #63585e; }
+
+.img-left {
+  width: 50%; }
+
+.img-right {
+  width: 50%; }
 
 .parrafo-nosotros {
   padding: 3px; }
-
-.img-nosotros {
-  width: stretch; }
 
 /* Videos de elaboracion de productos */
 .iframe-container-video {
@@ -127,14 +130,14 @@ iframe {
 #elaboracion-titulo {
   font-family: "Radio Canada";
   font-size: 40px;
-  padding-bottom: 10px;
+  padding: 35px;
   color: #b9c0da;
   text-transform: uppercase;
   text-align: center; }
 
 #elaboracion-parrafo {
   color: #b9c0da;
-  padding-bottom: 20px;
+  padding: 30px;
   font-size: 20px;
   font-family: "Radio Canada";
   text-transform: uppercase;
@@ -306,7 +309,9 @@ a:link :visited :hover {
     flex-direction: column;
     align-content: center; }
   .formulario {
-    width: auto; } }
+    width: auto; }
+  .parrafo-nosotros {
+    color: #fff; } }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
   .img-ocult {
