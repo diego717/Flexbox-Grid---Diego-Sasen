@@ -14,14 +14,13 @@ body {
 }
 
 /* Texto inicial de Index */
-.introduct {
-  font-family: $primary-font;
-}
+
 
 .content-introduct {
   display: flex;
   font-size: 24px;
   color: $primary-color;
+  font-family: $secondary-font;
   width: auto;
   padding: 5px;
   background-color: $secondary-color;
@@ -31,28 +30,23 @@ body {
 
 .page-title {
   color: #000;
+  font-family: $primary-font;
+  font-size: 4rem;
+}
+.titulo-nosotros{
+  font-size:2rem;
 }
 .nosotros {
   display: flex;
   flex-wrap: wrap;
   font-family: $secondary-font;
   background-color: $secondary-color;
-  padding: 10px;
-  text-align: center;
   font-size: 1.5rem;
   margin-bottom: 5px;
   color: $primary-color;
- }
- .img-left {
-  width: 50%;
- }
- .img-right {
-  width: 50%;
- }
-
-.parrafo-nosotros {
-  padding: 3px;
 }
+
+
 
 
 /* Videos de elaboracion de productos */
@@ -93,13 +87,14 @@ iframe {
   width: auto;
   height: auto;
   border-radius: 10px;
-  background-color: $back-color-form;
+  background-color: $secondary-color;
+  font-family: $secondary-font;
 }
 
 input {
   background-color: $back-color-form;
-  width: 408px;
-  height: 40px;
+  width: 25.5rem;
+  height: 2.5rem;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
@@ -111,8 +106,8 @@ input {
 
 textarea {
   background-color: $back-color-form;
-  width: 405px;
-  height: 150px;
+  width: 25.5rem;
+  height: 9.375rem;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
@@ -128,15 +123,15 @@ label {
 }
 
 button {
-  height: 45px;
+  height: 2.8125rem;
   margin-bottom: 20px;
   margin-top: 10px;
   text-transform: uppercase;
   background-color: $border-color-form;
-  border-color: $border-color-form;
+  border-color: $primary-color;
   border-style: solid;
   border-radius: 10px;
-  width: 420px;
+  width: 25.5rem;
   cursor: pointer;
 
   p {
@@ -153,9 +148,8 @@ span {
   color: #0e0e0e;
 }
 
-h1 {
-  font-size: 39px;
-  text-align: letf;
+.titulo_formulario {
+  font-size: 2.5rem;
   padding-bottom: 20px;
   color: $border-color-form;
 }
@@ -179,12 +173,28 @@ h3 {
   display: flex;
   
 }
-.img-formulario {
-  width: 75rem;
-}
+
 
 
 /* Estilos de testimonios de clientes */
+#nuestrosclientes_titulo{
+  color: $fourth-color;
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: $secondary-font;
+}
+#marcas_titulo{
+  text-align: center;
+  color: $fourth-color;
+  padding: 30px;
+  font-family: $secondary-font;
+  
+}
+.marcas{
+  filter: grayscale(1);
+}
+
+
 .clientes {
   display: flex;
   flex-flow: wrap;
@@ -223,6 +233,7 @@ h3 {
   font-family: $secondary-font;
   h4 {
     font-size: 1.4rem;
+    color: $primary-color;
     p {
       margin-top: 1rem;
       line-height: 1.5rem;

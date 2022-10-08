@@ -29,14 +29,13 @@
     <!-- Logo para volver al inicio -->
     <div class="container-fluid">
         <div class="row align-items-center">
-            <header class="col-3-xl col-12-sm">
-                <h1 class="titulo-principal">
-                    <a class="titulo-style" href="index.html">Sandra Jabones</a>
-                </h1>
+            <header class="col-xl-3 col-sm-12">
+                <p class="titulo-principal">
+                    <a class="titulo-style" href="../index.html">Sandra Jabones</a>
+                </p>
             </header>
             <!-- Barra de navegacion -->
-
-            <nav class="col-9-xl col-12-sm">
+            <nav class="col-xl-9 col-sm-12">
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="../pages/aboutus.html">Acerca de nosotros</a></li>
@@ -48,71 +47,55 @@
         </div>
     </div>   
 
-
-
     <!-- Seccion de formulario de contacto -->
-
-    <div class="container-form row">
-        <div class="img-formulario-container col-6">
-            <img class="img-formulario img-fluid" src="../images/probando.png" alt="Imagen de formulario descriptivo">
+<div class="container-fluid">
+    <div class="row">
+        <div class="img-formulario-container col-xl-6 col-sm-12">
+            <img class="img-fluid" src="../images/probando.png" alt="Imagen de formulario descriptivo">
         </div>
-        <div class="contact-form-container col-6">
-            <div class="contact_form">
-
+            <div class="contact_form container-fluid col-xl-6 col-sm-12">
                 <div class="formulario">
-                    <h1>Formulario de contacto</h1>
-                    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
-
-
-                    <form action="submeter-formulario.php" method="post">
-
-
-                        <p>
-                            <label for="nombre" class="colocar_nombre">Nombre
-                                <span class="obligatorio">*</span>
-                            </label>
-                            <input class="" type="text" name="introducir_nombre" id="nombre" required="obligatorio"
-                                placeholder="Escribe tu nombre">
-                        </p>
-
-                        <p>
-                            <label for="email" class="colocar_email">Email
-                                <span class="obligatorio">*</span>
-                            </label>
-                            <input type="email" name="introducir_email" id="email" required="obligatorio"
-                                placeholder="Escribe tu Email">
-                        </p>
-
-                        <p>
-                            <label for="telefone" class="colocar_telefono">Teléfono
-                            </label>
-                            <input type="tel" name="introducir_telefono" id="telefono"
-                                placeholder="Escribe tu teléfono">
-                        </p>
-
-
-                        <p>
-                            <label for="mensaje" class="colocar_mensaje">Mensaje
-                                <span class="obligatorio">*</span>
-                            </label>
-                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
-                                required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
-                        </p>
-
-                        <button type="submit" name="enviar_formulario" id="enviar">
-                            <p>Enviar</p>
-                        </button>
-
-                        <p class="aviso">
-                            <span class="obligatorio"> * </span>los campos son obligatorios.
-                        </p>
-
-                    </form>
+                    <h1 class="titulo_formulario">Formulario de contacto</h1>
+                        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+                            <form action="submeter-formulario.php" method="post">
+                                <p>
+                                    <label for="nombre" class="colocar_nombre">Nombre
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                    <input class="" type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                                        placeholder="Escribe tu nombre">
+                                </p>
+                                <p>
+                                    <label for="email" class="colocar_email">Email
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                                        placeholder="Escribe tu Email">
+                                </p>
+                                <p>
+                                    <label for="telefone" class="colocar_telefono">Teléfono
+                                    </label>
+                                    <input type="tel" name="introducir_telefono" id="telefono"
+                                        placeholder="Escribe tu teléfono">
+                                </p>
+                                <p>
+                                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
+                                        required="obligatorio" placeholder=" Deja aquí tu comentario..."></textarea>
+                                </p>
+                                <button type="submit" name="enviar_formulario" id="enviar">
+                                    <p>Enviar</p>
+                                </button>
+                                <p class="aviso">
+                                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                                </p>
+                            </form>
                 </div>
             </div>
-        </div>
-        </form>
     </div>
+</div>    
     <footer class="footer">
         <div class="row">
             <div class="col-10">
@@ -127,13 +110,13 @@
                 <p>Tel. 2407 2060</p>
             </div>
             <div class="img-container col-2">
-                <a href="http://facebook.com/"><img class="img-logo-rrss"
+                <a href="http://facebook.com/" target="_blank"><img class="img-logo-rrss"
                         src="../images/5279111_network_fb_social media_facebook_facebook logo_icon.svg"
                         alt="Logo de Facebook" /></a>
-                <a href="http://instagram.com/"><img class="img-logo-rrss"
+                <a href="http://instagram.com/" target="_blank"><img class="img-logo-rrss"
                         src="../images/5279112_camera_instagram_social media_instagram logo_icon.svg"
                         alt="Logo de instagram" /></a>
-                <a href="http://web.whatsapp.com"><img class="img-logo-rrss"
+                <a href="http://web.whatsapp.com" target="_blank"><img class="img-logo-rrss"
                         src="../images/1298775_whatsapp_chat_sms_social media_talk_icon.svg"
                         alt="Logo de Whatsapp" /></a>
             </div>
